@@ -22,3 +22,10 @@
 2 - Extract Zip file
 
 3 - click on index.html file its show you the complete task on browser
+
+# Code spliting - Lazy Loading 
+
+click on zip file 
+
+click on view raw
+
