@@ -1,0 +1,200 @@
+ body{
+    margin:0;
+    padding: 0;
+    font-family: Tahoma, sans-serif;
+  color: rgb(66, 65, 65);
+
+}
+
+
+/*  css for buttons */
+button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #678af4;
+    color: #fff;
+    text-decoration: none ;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+    border: none;
+   
+}
+
+button:hover{
+    background-color: #0056b3;
+}
+
+#btn{
+    border-radius: 5px;
+}
+#log-btn{
+    background: transparent;
+    color: gray;
+}
+
+
+/* header css */
+
+
+
+
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+  
+
+} 
+
+.heding-container{
+    margin-left: 130px;
+}
+
+ a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    
+} 
+ #mynavbar :hover{
+color: #678af4;
+} 
+.heder ul, .heder li{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.heder li{
+    display: inline-block;
+    margin: 1.4em 1em 1em 1em;
+}
+#logo{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: button;
+}
+
+.new {
+    background-color: black;
+}
+/* heading css  */
+
+strong{
+    color: #678af4;
+    font-size: 20px;
+}
+
+.heding-container{
+   padding: 10px;
+
+}
+
+h1{
+    font-weight: bold;
+}
+
+
+p{
+    color: gray;
+    
+}
+
+
+/* card css */
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+   
+    
+    
+}
+.first-card{
+    
+    border: 2px solid #678af4;
+    border-radius: 10px;
+    display: inline;
+    
+
+
+
+}
+.card-items{
+    padding: 15px;
+
+}
+
+
+.card-header{
+    text-align: center;
+}
+
+.form-group{
+    padding: 6px;
+}
+label{
+    font-size: 15px; 
+}
+
+#card-btns{
+    width: 100%;
+    border-radius: 5px;
+    
+}
+
+
+/* footer css */
+
+.footer{
+    margin-top: 50px;
+    background-color:	#F5F5F5;
+}
+
+/* css for different screen size */
+@media only screen and (max-width: 550px)  {
+    .container{
+        
+        display: flex;
+        justify-content: center;
+    align-items: center;
+    margin-right: 60px;
+        
+    }
+    .card-container{
+        width: 80%;
+        flex-direction: column;
+        
+        
+        
+    }
+    #logo{
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .footer{
+        width: 100%;
+        
+    }
+    .heding-container{
+        margin-right: 60px;
+
+    }
+}
+@media only screen and (max-width: 550px){
+    
+        .heding-container {
+            margin-left: 40px;
+        }
+    
+}
